@@ -32,4 +32,10 @@ public class FrontController {
 	{
 		return "aboutinfo";
 	}
+	
+	@RequestMapping(value="/contact")
+	public String showContactMePage()
+	{
+		return "contact";
+	}
 }
