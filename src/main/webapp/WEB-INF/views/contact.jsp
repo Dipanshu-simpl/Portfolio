@@ -16,10 +16,33 @@
   <div style="margin-top:13px" class="container-fluid">
     <ul class="nav navbar-nav">
      
-      <li><a href="/magoo">Home</a></li>
-      <li class="active"><a href="#">Contact Me</a></li>
+     
+      <li><a href="/">Home</a></li>
+      <li><a href="/aboutinfo" target="_blank">About Me</a></li>
+      <li><a href="/projects" target="_blank">Projects</a></li>
+      <li class="active"><a href="/contact">Contact Me</a></li>
 </ul>
 </div>
 </nav>
+<!--  <div style="margin-left:230px; margin-top:60px; margin-right:430px;"> -->
+<div class="col-12 col-md-6">
+<form:form  method="POST" action="/contact" modelAttribute="contact" >
+<fieldset class="form-group">
+<form:label path="name" >Name</form:label>
+<form:input path="name" type="text" class="form-control form-control-sm"  required="required" placeholder="Enter name"/>
+<br>
+<form:label path="email">Email</form:label>
+<form:input path="email" type="email" class="form-control form-control-sm" required="required" placeholder="Enter email"/>
+<br>
+<form:label path="contactNo">ContactNo</form:label>
+<form:input path="contactNo" type="text" class="form-control form-control-sm" required="required" placeholder="Enter number"/>
+<br>
+<form:label path="message">Message</form:label>
+<form:textarea path="message" type="text" class="form-control"  rows="4" placeholder="Message(Optional)"/>
+<br>
+<input type="submit" value="Submit" class="btn btn-success btn-lg"/>
+</fieldset>
+</form:form>
+</div>
 </body>
 </html>

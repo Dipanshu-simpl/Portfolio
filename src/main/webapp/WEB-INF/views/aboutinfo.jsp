@@ -12,7 +12,7 @@
 <nav class="navbar navbar-inverse">
   <div style="margin-top:13px" class="container-fluid">
     <ul class="nav navbar-nav">
-      <li><a href="/magoo">Home</a></li>
+      <li><a href="/">Home</a></li>
       <li class="active"><a href="/aboutinfo" target="_blank">About Me</a></li>
       </ul>
       </div>
@@ -25,26 +25,6 @@
  Usually I spend free time learning new skills <br>and doing projects. I'm looking for a senior contributor role where <br>I can take leadership responsibilities and help my team to grow. </b></p>
 <br>
 </div>
-<div style="margin-top:-333px; position:absolute; right:40px;">
-<h1 style="margin-left:12px; font-family:Georgia;">Work Experience: </h1>
-<h3 style="margin-left:12px; font-family:Georgia;"><b>Cognizant Technology Solutions:(08/2018- 10/2020) </b></h3>
-<ul style="font-family:Sans-serif;">
-<li style="font-family:Sans-serif; line-height:1.6;font-size:15px;"><b>Worked on GX programme for Inmarsat on telecom provisioning dashboard.
-Developed <br>a good understanding of web services architecture while working on API development<br> for product model creation, 
-load and update derived attribute services.</b></li>
-<li style="font-family:Sans-serif; line-height:1.6; font-size:15px;"><b>Consequently contributed towards resolution of various code and 
-data defects. Good<br> knowledge of working with Oracle SQL queries and procedures. 
-Developed and <br>delivered complex queries for updating large datasets.These initiatives were well <br>appreciated by the management.</b></li>
-<li style="font-family:Sans-serif; line-height:1.6; font-size:15px;"><b>Worked on development on services for CDRs and In
-data defects. Good<br> knowledge of working with Oracle SQL queries and procedures. 
-Developed and <br>delivered complex queries for updating large datasets.These initiatives were well <br>appreciated by the management.</b></li>
-</ul>
-<h3 style="margin-left:12px; font-family:Georgia;"><b>QualtechEdge:(11/2020- Present) </b></h3>
-<br>
-<ul style="font-family:Sans-serif;">
-<li style="font-family:Sans-serif; line-height:1.6;font-size:15px;"><b>Working on development of microservices for insurance web application<br>
-which consume Aadhar-Reference number task, policy id creation <br>.</b></li>
-</ul>
-</div>
+
 </body>
 </html>
