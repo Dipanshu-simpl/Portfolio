@@ -20,19 +20,20 @@
      
       <li class="active"><a href="#">Home</a></li>
       <li><a href="/aboutinfo" target="_blank">About Me</a></li>
-      <li><a href="/projects" target="_blank">Projects</a></li>
-      <li><a href="/contact">Contact Me</a></li>
+     <!-- <li><a href="/aboutinfo" target="_blank">Skills</a></li>-->
+      <li><a href="/contact" target="_blank">Contact Me</a></li>
       <li style="position:absolute;right:25px;bottom:-6.2px; color:white;"><a href="https://www.facebook.com/profile.php?id=100005680279483" target="_blank"><i class="fa fa-facebook-official" style="font-size:36px"></i></a></li>
       <li style="position:absolute;right:78px;bottom:-6.2px; color:white;"><a href="https://www.linkedin.com/in/dipanshu-magoo-36531b138" target="_blank"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a></li>
       <li style="position:absolute;right:133px;bottom:-6.2px; color:white;"><a href="https://github.com/Dipanshu-simpl" target="_blank"><i class="fa fa-github" style="font-size:36px"></i></a></li>
     </ul>
   </div>
 </nav>
-<div>
+<div style="margin-top:57px">
+<p align="center"><img src="/resources/images/IMG_20200304_191220.png"  height=260px; width=320px;/></p>
 <h1 style="font-size:50px" >Hello, I'm Dipanshu Magoo.<br> I'm a Backend developer</h1>
 </div>
 <div style ="margin-top:10px  "class="text-center">
-<button type="button" class="btn btn-primary btn-lg">View my work</button>
+<button type="button" class="btn btn-primary btn-lg" onclick="location.href='/myWork'">View my work</button>
 </div>
 </body>
 </html>

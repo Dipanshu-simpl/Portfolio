@@ -63,8 +63,18 @@ public class FrontController {
 		}
 		model.addAttribute("name",contact.getName());
 		frontService.sendEmail();
-		contIns.insertUser(contact);
+		
+		// Removing DB instance from AWS 9 May 2021
+		//contIns.insertUser(contact);
 		System.out.println(contact.getName());
 		return "thanks";
+	}
+	
+	
+	
+	@RequestMapping(value="/myWork" , method=RequestMethod.GET)
+	public String viewMyWork()
+	{
+		return "viewWork";
 	}
 }

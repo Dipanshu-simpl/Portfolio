@@ -4,6 +4,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script type="text/javascript" >
+   function preventBack(){window.history.forward();}
+    setTimeout("preventBack()", 0);
+    window.onunload=function(){null};
+</script>
 <meta charset="ISO-8859-1">
 <title>Contact Information</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,8 +23,8 @@
      
      
       <li><a href="/">Home</a></li>
-      <li><a href="/aboutinfo" target="_blank">About Me</a></li>
-      <li><a href="/projects" target="_blank">Projects</a></li>
+      <li><a href="/aboutinfo">About Me</a></li>
+    <!--    <li><a href="/aboutinfo" target="_blank">Skills</a></li>-->
       <li class="active"><a href="/contact">Contact Me</a></li>
 </ul>
 </div>

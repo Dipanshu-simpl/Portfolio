@@ -23,16 +23,16 @@ public class contactDao {
 		dataSource.setPassword("Rohtak123#");*/
 		
 		// MySql Db details(Localhost)
-		/*dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 		dataSource.setUrl("jdbc:mysql://localhost:3306/portfolio");
 		dataSource.setUsername("root");
-		dataSource.setPassword("springstudent");*/
+		dataSource.setPassword("springstudent");
 		
 		// MySql AWS Db
-		dataSource.setDriverClassName("com.mysql.jdbc.Driver");
+		/*dataSource.setDriverClassName("com.mysql.jdbc.Driver");
 		dataSource.setUrl("jdbc:mysql://springonaws-db.cpbpdwb1odpe.ap-south-1.rds.amazonaws.com:3306/Portfolio");
 		dataSource.setUsername("springstudent");
-		dataSource.setPassword("springstudent");
+		dataSource.setPassword("springstudent");*/
 		
 		
 		return dataSource;
